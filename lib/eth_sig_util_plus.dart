@@ -2,9 +2,9 @@ library eth_sign_util;
 
 import 'dart:typed_data';
 
-import 'package:eth_sig_util/constant/typed_data_version.dart';
-import 'package:eth_sig_util/util/signature.dart';
-import 'package:eth_sig_util/util/typed_data.dart';
+import 'package:eth_sig_util_plus/constant/typed_data_version.dart';
+import 'package:eth_sig_util_plus/util/signature.dart';
+import 'package:eth_sig_util_plus/util/typed_data.dart';
 
 export 'constant/typed_data_version.dart';
 export 'util/abi.dart';

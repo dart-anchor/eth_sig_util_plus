@@ -1,6 +1,6 @@
-# eth_sig_util
+# eth_sig_util_plus
 
-Ethereum signature utility porting from JS
+Ethereum signature utility porting from JS, plus maintained by org.
 
 This lib came from the demand of our project [Avacus](https://avacus.cc)
 
@@ -15,7 +15,7 @@ Inspired by Dart ethereum_util but no longer active and not yet supported for V1
 
 ## Usage
 ```dart
-import 'package:eth_sig_util/eth_sig_util.dart';
+import 'package:eth_sig_util_plus/eth_sig_util_plus.dart';
 
 String signature = EthSigUtil.signTypedData(privateKey: '4af...bb0', jsonData: '{...}', version: TypedDataVersion.V4);
 

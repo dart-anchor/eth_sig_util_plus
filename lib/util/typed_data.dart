@@ -3,11 +3,11 @@ import 'dart:typed_data';
 
 import 'package:buffer/buffer.dart';
 import 'package:convert/convert.dart';
-import 'package:eth_sig_util/eth_sig_util.dart';
-import 'package:eth_sig_util/model/ecdsa_signature.dart';
-import 'package:eth_sig_util/util/abi.dart';
-import 'package:eth_sig_util/util/signature.dart';
-import 'package:eth_sig_util/util/utils.dart';
+import 'package:eth_sig_util_plus/eth_sig_util_plus.dart';
+import 'package:eth_sig_util_plus/model/ecdsa_signature.dart';
+import 'package:eth_sig_util_plus/util/abi.dart';
+import 'package:eth_sig_util_plus/util/signature.dart';
+import 'package:eth_sig_util_plus/util/utils.dart';
 
 import '../model/typed_data.dart';
 import 'keccak.dart';

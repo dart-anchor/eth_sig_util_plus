@@ -1,13 +1,11 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:eth_sig_util/eth_sig_util.dart';
-import 'package:eth_sig_util/model/typed_data.dart';
-import 'package:eth_sig_util/util/bytes.dart';
-import 'package:eth_sig_util/util/keccak.dart';
-import 'package:eth_sig_util/util/signature.dart';
-import 'package:eth_sig_util/util/typed_data.dart';
-import 'package:eth_sig_util/util/utils.dart';
+import 'package:eth_sig_util_plus/eth_sig_util_plus.dart';
+import 'package:eth_sig_util_plus/model/typed_data.dart';
+import 'package:eth_sig_util_plus/util/bytes.dart';
+import 'package:eth_sig_util_plus/util/keccak.dart';
+import 'package:eth_sig_util_plus/util/utils.dart';
 import 'package:test/test.dart';
 
 void main() {

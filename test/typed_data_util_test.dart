@@ -1,6 +1,6 @@
-import 'package:eth_sig_util/model/typed_data.dart';
-import 'package:eth_sig_util/util/bytes.dart';
-import 'package:eth_sig_util/util/typed_data.dart';
+import 'package:eth_sig_util_plus/model/typed_data.dart';
+import 'package:eth_sig_util_plus/util/bytes.dart';
+import 'package:eth_sig_util_plus/util/typed_data.dart';
 import 'package:test/test.dart';
 
 void main() {

@@ -3,7 +3,7 @@ import 'dart:typed_data';
 
 import 'package:collection/collection.dart' show ListEquality;
 import 'package:convert/convert.dart';
-import 'package:eth_sig_util/model/ecdsa_signature.dart';
+import 'package:eth_sig_util_plus/model/ecdsa_signature.dart';
 import 'package:pointycastle/api.dart';
 import 'package:pointycastle/digests/sha256.dart';
 import 'package:pointycastle/ecc/api.dart';
