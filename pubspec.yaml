@@ -1,6 +1,6 @@
-version: 0.0.9
 name: eth_sig_util_plus
 description: "Ethereum signature utility porting from JS, plus maintained by org."
+version: 0.0.10
 repository: https://github.com/dart-anchor/eth_sig_util_plus
 
 environment:

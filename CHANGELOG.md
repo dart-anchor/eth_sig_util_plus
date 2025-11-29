@@ -1,36 +1,40 @@
-## 0.0.1
+## 0.0.10
 
-- Initiate lib, support sign typed data EIP712
-- Export all needed function around typed data
+- Allows `pointycastle` v4.
 
-## 0.0.2
+## 0.0.9
 
-- Fix parse bytes32 type and check hex type for string
+- Fix mistake of unused param
 
-## 0.0.3
+## 0.0.8
 
-- Resolve some old parts that no longer work
-
-## 0.0.4
-
-- Expose and support sign message, sign personal message, recover address
-
-## 0.0.5
-
-- Fix encode personal message
-
-## 0.0.6
-
-- Add missing salt field in EIP712Domain object
+- Remove chain id params, expose private key in bytes along with hex string, separate recover personal signature
 
 ## 0.0.7
 
 - Fix findTypeDependencies
 
-## 0.0.8
+## 0.0.6
 
-- Remove chain id params, expose private key in bytes along with hex string, separate recover personal signature
-- 
-## 0.0.9
+- Add missing salt field in EIP712Domain object
 
-- Fix mistake of unused param
+## 0.0.5
+
+- Fix encode personal message
+
+## 0.0.4
+
+- Expose and support sign message, sign personal message, recover address
+
+## 0.0.3
+
+- Resolve some old parts that no longer work
+
+## 0.0.2
+
+- Fix parse bytes32 type and check hex type for string
+
+## 0.0.1
+
+- Initiate lib, support sign typed data EIP712
+- Export all needed function around typed data
