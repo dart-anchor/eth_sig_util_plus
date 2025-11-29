@@ -15,6 +15,6 @@ jobs:
         uses: k-paxian/dart-package-publisher@master
         with:
           credentialJson: ${{ secrets.CREDENTIAL_JSON }}
-          flutter: true
+          flutter: false
           force: true
           skipTests: true
